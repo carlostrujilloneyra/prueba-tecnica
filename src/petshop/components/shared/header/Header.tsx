@@ -1,14 +1,21 @@
 import { ContainerButtons, Logo, NavigationBar } from "./components";
 import "../../../styles/Header.css";
+import { motion } from "framer-motion";
 
 export const Header = () => {
   return (
     <>
-      <header className="main-header container">
+      <motion.header
+        initial={{ y: -200 }}
+        animate={{ y: 0 }}
+        exit={{ y: 0 }}
+        transition={{ ease: "easeInOut", duration: 0.6 }}
+        className="main-header container"
+      >
         <Logo />
         <NavigationBar />
         <ContainerButtons />
-      </header>
+      </motion.header>
     </>
   );
 };
