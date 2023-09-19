@@ -6,7 +6,7 @@
 
 :root {
   --fontTitle: "Open Sans", sans-serif;
-  --fontText: "" Roboto ", sans-serif;";
+  --fontText: "Roboto", sans-serif;
 }
 
 html {
@@ -25,6 +25,38 @@ h3 {
 
 p,
 button,
+span,
 a {
   font-family: var(--fontText);
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+}
+
+input[type="text"] {
+  border-radius: 1.2rem;
+  border: none;
+  font-family: var(--fontText);
+  font-size: 1.4rem;
+  width: 100%;
+  outline: none;
+  padding: 1rem 1.6rem;
+  transition: all 0.4s;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 0 0.2rem #383c41;
+}
+
+input[type="text"]:focus::placeholder {
+  opacity: 0;
+  transition: all 0.4s;
+  font-family: var(--fontText);
+}
+
+input[type="text"]::placeholder {
+  color: #aeaeae;
+  transition: all 0.4s;
 }
