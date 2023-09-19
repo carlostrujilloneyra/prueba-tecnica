@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fontTitle: "Open Sans", sans-serif;
+  --fontText: "" Roboto ", sans-serif;";
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fontTitle);
+}
+
+p,
+button,
+a {
+  font-family: var(--fontText);
+}
