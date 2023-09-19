@@ -1,3 +1,9 @@
+import { PurchaseSuccessful } from "../components/purchase/successful";
+
 export const SuccessfulPurchasePage = () => {
-  return <div>SuccessfulPurchasePage</div>;
+  return (
+    <>
+      <PurchaseSuccessful />
+    </>
+  );
 };

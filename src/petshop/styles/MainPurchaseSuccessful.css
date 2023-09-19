@@ -1,0 +1,72 @@
+.purchase-successful {
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+
+  @media (width >= 640px) {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.main-purchase-successful {
+  margin: 5rem 2.4rem;
+  display: grid;
+  grid-template-rows: 12rem 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 2.4rem;
+
+  @media (width >= 640px) {
+    margin: 8rem 2.4rem;
+    margin-bottom: 3.6rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: 12rem;
+  height: 12rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.description-payment {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-button button {
+  background-color: #f0c60c;
+  cursor: pointer;
+  border: 0.1rem solid #383c41;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+  transition: all 0.5s;
+}
+
+.container-button button:hover {
+  filter: brightness(1.1);
+  transition: all 0.4s;
+}
+
+.container-quantity-likes {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  transform: translateX(-1rem);
+  user-select: none;
+}

@@ -1,0 +1,21 @@
+.main-hero-home {
+  padding: 8rem 2.4rem;
+
+  @media (width >= 640px) {
+    padding: 10rem 4rem;
+  }
+
+  @media (width >= 1024px) {
+    padding: 12rem 8rem;
+  }
+}
+
+h1 {
+  margin: 4rem auto;
+}
+
+p {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}

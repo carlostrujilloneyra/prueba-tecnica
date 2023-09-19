@@ -57,6 +57,7 @@
 }
 
 .main-button-search {
+  background-color: #f0c60c;
   border: none;
   cursor: pointer;
   border-top-right-radius: 1.2rem;
@@ -71,5 +72,4 @@
   right: 0;
   width: 3.2rem;
   height: 3.6rem;
-  background-color: #f0c60c;
 }
